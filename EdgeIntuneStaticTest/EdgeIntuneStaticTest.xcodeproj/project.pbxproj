@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFEA53612BD8B20500BADDB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEA53602BD8B20500BADDB1 /* AppDelegate.m */; };
+		BFEA53642BD8B20500BADDB1 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEA53632BD8B20500BADDB1 /* SceneDelegate.m */; };
+		BFEA53672BD8B20500BADDB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEA53662BD8B20500BADDB1 /* ViewController.m */; };
+		BFEA536A2BD8B20500BADDB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFEA53692BD8B20500BADDB1 /* Base */; };
+		BFEA536C2BD8B20600BADDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEA536B2BD8B20600BADDB1 /* Assets.xcassets */; };
+		BFEA536F2BD8B20600BADDB1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BFEA536E2BD8B20600BADDB1 /* Base */; };
+		BFEA53722BD8B20600BADDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEA53712BD8B20600BADDB1 /* main.m */; };
+		BFEA539F2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA539E2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework */; };
+		BFEA53A02BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA539E2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFEA53A32BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53A22BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework */; };
+		BFEA53A42BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53A22BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BFEA53AE2BD8C95200BADDB1 /* IntuneMAMResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BFEA53AD2BD8C95200BADDB1 /* IntuneMAMResources.bundle */; };
+		BFEA53B02BD8C97900BADDB1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53AF2BD8C97900BADDB1 /* MessageUI.framework */; };
+		BFEA53B22BD8C98100BADDB1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B12BD8C98100BADDB1 /* Security.framework */; };
+		BFEA53B42BD8C98900BADDB1 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B32BD8C98900BADDB1 /* CoreServices.framework */; };
+		BFEA53B62BD8C99100BADDB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B52BD8C99100BADDB1 /* SystemConfiguration.framework */; };
+		BFEA53BA2BD8C9AA00BADDB1 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B92BD8C9AA00BADDB1 /* ImageIO.framework */; };
+		BFEA53BC2BD8C9B200BADDB1 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53BB2BD8C9B200BADDB1 /* LocalAuthentication.framework */; };
+		BFEA53BE2BD8C9BB00BADDB1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53BD2BD8C9BB00BADDB1 /* AudioToolbox.framework */; };
+		BFEA53C02BD8C9C200BADDB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53BF2BD8C9C200BADDB1 /* QuartzCore.framework */; };
+		BFEA53C22BD8C9CC00BADDB1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53C12BD8C9CC00BADDB1 /* WebKit.framework */; };
+		BFEA53C42BD8C9D400BADDB1 /* MetricKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53C32BD8C9D400BADDB1 /* MetricKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFEA53A12BD8B2A100BADDB1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BFEA53A42BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework in Embed Frameworks */,
+				BFEA53A02BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFEA535C2BD8B20500BADDB1 /* EdgeIntuneStaticTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgeIntuneStaticTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEA535F2BD8B20500BADDB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFEA53602BD8B20500BADDB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFEA53622BD8B20500BADDB1 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BFEA53632BD8B20500BADDB1 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BFEA53652BD8B20500BADDB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFEA53662BD8B20500BADDB1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFEA53692BD8B20500BADDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFEA536B2BD8B20600BADDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFEA536E2BD8B20600BADDB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFEA53702BD8B20600BADDB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFEA53712BD8B20600BADDB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFEA539E2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libIntuneMAMSwift.xcframework; path = ../libs/libIntuneMAMSwift.xcframework; sourceTree = "<group>"; };
+		BFEA53A22BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = IntuneMAMSwiftStub.xcframework; path = ../libs/IntuneMAMSwiftStub.xcframework; sourceTree = "<group>"; };
+		BFEA53AD2BD8C95200BADDB1 /* IntuneMAMResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IntuneMAMResources.bundle; path = ../libs/IntuneMAMResources.bundle; sourceTree = "<group>"; };
+		BFEA53AF2BD8C97900BADDB1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BFEA53B12BD8C98100BADDB1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFEA53B32BD8C98900BADDB1 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		BFEA53B52BD8C99100BADDB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFEA53B72BD8C99A00BADDB1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BFEA53B82BD8C9A200BADDB1 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BFEA53B92BD8C9AA00BADDB1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		BFEA53BB2BD8C9B200BADDB1 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		BFEA53BD2BD8C9BB00BADDB1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFEA53BF2BD8C9C200BADDB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFEA53C12BD8C9CC00BADDB1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		BFEA53C32BD8C9D400BADDB1 /* MetricKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetricKit.framework; path = System/Library/Frameworks/MetricKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFEA53592BD8B20500BADDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEA53C02BD8C9C200BADDB1 /* QuartzCore.framework in Frameworks */,
+				BFEA53A32BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework in Frameworks */,
+				BFEA539F2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework in Frameworks */,
+				BFEA53BA2BD8C9AA00BADDB1 /* ImageIO.framework in Frameworks */,
+				BFEA53B22BD8C98100BADDB1 /* Security.framework in Frameworks */,
+				BFEA53BC2BD8C9B200BADDB1 /* LocalAuthentication.framework in Frameworks */,
+				BFEA53BE2BD8C9BB00BADDB1 /* AudioToolbox.framework in Frameworks */,
+				BFEA53C42BD8C9D400BADDB1 /* MetricKit.framework in Frameworks */,
+				BFEA53B42BD8C98900BADDB1 /* CoreServices.framework in Frameworks */,
+				BFEA53B62BD8C99100BADDB1 /* SystemConfiguration.framework in Frameworks */,
+				BFEA53B02BD8C97900BADDB1 /* MessageUI.framework in Frameworks */,
+				BFEA53C22BD8C9CC00BADDB1 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFEA53532BD8B20500BADDB1 = {
+			isa = PBXGroup;
+			children = (
+				BFEA53AD2BD8C95200BADDB1 /* IntuneMAMResources.bundle */,
+				BFEA535E2BD8B20500BADDB1 /* EdgeIntuneStaticTest */,
+				BFEA535D2BD8B20500BADDB1 /* Products */,
+				BFEA539D2BD8B2A100BADDB1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEA535D2BD8B20500BADDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA535C2BD8B20500BADDB1 /* EdgeIntuneStaticTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEA535E2BD8B20500BADDB1 /* EdgeIntuneStaticTest */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA535F2BD8B20500BADDB1 /* AppDelegate.h */,
+				BFEA53602BD8B20500BADDB1 /* AppDelegate.m */,
+				BFEA53622BD8B20500BADDB1 /* SceneDelegate.h */,
+				BFEA53632BD8B20500BADDB1 /* SceneDelegate.m */,
+				BFEA53652BD8B20500BADDB1 /* ViewController.h */,
+				BFEA53662BD8B20500BADDB1 /* ViewController.m */,
+				BFEA53682BD8B20500BADDB1 /* Main.storyboard */,
+				BFEA536B2BD8B20600BADDB1 /* Assets.xcassets */,
+				BFEA536D2BD8B20600BADDB1 /* LaunchScreen.storyboard */,
+				BFEA53702BD8B20600BADDB1 /* Info.plist */,
+				BFEA53712BD8B20600BADDB1 /* main.m */,
+			);
+			path = EdgeIntuneStaticTest;
+			sourceTree = "<group>";
+		};
+		BFEA539D2BD8B2A100BADDB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEA53C32BD8C9D400BADDB1 /* MetricKit.framework */,
+				BFEA53C12BD8C9CC00BADDB1 /* WebKit.framework */,
+				BFEA53BF2BD8C9C200BADDB1 /* QuartzCore.framework */,
+				BFEA53BD2BD8C9BB00BADDB1 /* AudioToolbox.framework */,
+				BFEA53BB2BD8C9B200BADDB1 /* LocalAuthentication.framework */,
+				BFEA53B92BD8C9AA00BADDB1 /* ImageIO.framework */,
+				BFEA53B82BD8C9A200BADDB1 /* libc++.tbd */,
+				BFEA53B72BD8C99A00BADDB1 /* libsqlite3.tbd */,
+				BFEA53B52BD8C99100BADDB1 /* SystemConfiguration.framework */,
+				BFEA53B32BD8C98900BADDB1 /* CoreServices.framework */,
+				BFEA53B12BD8C98100BADDB1 /* Security.framework */,
+				BFEA53AF2BD8C97900BADDB1 /* MessageUI.framework */,
+				BFEA53A22BD8B34D00BADDB1 /* IntuneMAMSwiftStub.xcframework */,
+				BFEA539E2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFEA535B2BD8B20500BADDB1 /* EdgeIntuneStaticTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEA53752BD8B20600BADDB1 /* Build configuration list for PBXNativeTarget "EdgeIntuneStaticTest" */;
+			buildPhases = (
+				BFEA53582BD8B20500BADDB1 /* Sources */,
+				BFEA53592BD8B20500BADDB1 /* Frameworks */,
+				BFEA535A2BD8B20500BADDB1 /* Resources */,
+				BFEA53A12BD8B2A100BADDB1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdgeIntuneStaticTest;
+			productName = EdgeIntuneStaticTest;
+			productReference = BFEA535C2BD8B20500BADDB1 /* EdgeIntuneStaticTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEA53542BD8B20500BADDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BFEA535B2BD8B20500BADDB1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = BFEA53572BD8B20500BADDB1 /* Build configuration list for PBXProject "EdgeIntuneStaticTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFEA53532BD8B20500BADDB1;
+			productRefGroup = BFEA535D2BD8B20500BADDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEA535B2BD8B20500BADDB1 /* EdgeIntuneStaticTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFEA535A2BD8B20500BADDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEA53AE2BD8C95200BADDB1 /* IntuneMAMResources.bundle in Resources */,
+				BFEA536C2BD8B20600BADDB1 /* Assets.xcassets in Resources */,
+				BFEA536F2BD8B20600BADDB1 /* Base in Resources */,
+				BFEA536A2BD8B20500BADDB1 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEA53582BD8B20500BADDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEA53672BD8B20500BADDB1 /* ViewController.m in Sources */,
+				BFEA53612BD8B20500BADDB1 /* AppDelegate.m in Sources */,
+				BFEA53722BD8B20600BADDB1 /* main.m in Sources */,
+				BFEA53642BD8B20500BADDB1 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFEA53682BD8B20500BADDB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEA53692BD8B20500BADDB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFEA536D2BD8B20600BADDB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEA536E2BD8B20600BADDB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFEA53732BD8B20600BADDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFEA53742BD8B20600BADDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFEA53762BD8B20600BADDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EdgeIntuneStaticTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.EdgeIntuneStaticTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFEA53772BD8B20600BADDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UBF8T346G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EdgeIntuneStaticTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.EdgeIntuneStaticTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFEA53572BD8B20500BADDB1 /* Build configuration list for PBXProject "EdgeIntuneStaticTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEA53732BD8B20600BADDB1 /* Debug */,
+				BFEA53742BD8B20600BADDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEA53752BD8B20600BADDB1 /* Build configuration list for PBXNativeTarget "EdgeIntuneStaticTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEA53762BD8B20600BADDB1 /* Debug */,
+				BFEA53772BD8B20600BADDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFEA53542BD8B20500BADDB1 /* Project object */;
+}
