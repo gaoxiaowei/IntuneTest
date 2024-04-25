@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IntuneMAM.h"
 
 @interface AppDelegate ()
 
@@ -13,12 +14,32 @@
 
 @implementation AppDelegate
 
+-(UIWindow*)getFirstKeyWindow {
+  UIApplication* app = [UIApplication sharedApplication];
+  UIWindowScene* windowScene = nil;
+  for (UIScene* scene in app.connectedScenes) {
+    if ([scene isKindOfClass:UIWindowScene.class]) {
+      windowScene = (UIWindowScene*)scene;
+    }
+  }
+  for (UIWindow* window in windowScene.windows) {
+    if (window.isKeyWindow) {
+      return window;
+    }
+  }
+  return windowScene.windows.firstObject;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [IntuneMAMPolicyManager.instance
+     setUIPolicyIdentity:@"xiaoweigao@edgemobile.onmicrosoft.com"
+                  forWindow:[self getFirstKeyWindow]
+          completionHandler:nil];
+    
+    [IntuneMAMDiagnosticConsole displayDiagnosticConsole];
     return YES;
 }
-
 
 #pragma mark - UISceneSession lifecycle
 

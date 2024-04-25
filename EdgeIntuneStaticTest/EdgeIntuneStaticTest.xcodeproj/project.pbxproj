@@ -29,6 +29,8 @@
 		BFEA53C02BD8C9C200BADDB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53BF2BD8C9C200BADDB1 /* QuartzCore.framework */; };
 		BFEA53C22BD8C9CC00BADDB1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53C12BD8C9CC00BADDB1 /* WebKit.framework */; };
 		BFEA53C42BD8C9D400BADDB1 /* MetricKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53C32BD8C9D400BADDB1 /* MetricKit.framework */; };
+		BFEA53FA2BDA389900BADDB1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B72BD8C99A00BADDB1 /* libsqlite3.tbd */; };
+		BFEA53FB2BDA38A100BADDB1 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEA53B82BD8C9A200BADDB1 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,8 +88,10 @@
 				BFEA539F2BD8B2A100BADDB1 /* libIntuneMAMSwift.xcframework in Frameworks */,
 				BFEA53BA2BD8C9AA00BADDB1 /* ImageIO.framework in Frameworks */,
 				BFEA53B22BD8C98100BADDB1 /* Security.framework in Frameworks */,
+				BFEA53FA2BDA389900BADDB1 /* libsqlite3.tbd in Frameworks */,
 				BFEA53BC2BD8C9B200BADDB1 /* LocalAuthentication.framework in Frameworks */,
 				BFEA53BE2BD8C9BB00BADDB1 /* AudioToolbox.framework in Frameworks */,
+				BFEA53FB2BDA38A100BADDB1 /* libc++.tbd in Frameworks */,
 				BFEA53C42BD8C9D400BADDB1 /* MetricKit.framework in Frameworks */,
 				BFEA53B42BD8C98900BADDB1 /* CoreServices.framework in Frameworks */,
 				BFEA53B62BD8C99100BADDB1 /* SystemConfiguration.framework in Frameworks */,
@@ -393,6 +397,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-L$(DEVELOPER_DIR)/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/$(PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = microsoft.EdgeIntuneStaticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -420,6 +425,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-L$(DEVELOPER_DIR)/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/$(PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = microsoft.EdgeIntuneStaticTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
